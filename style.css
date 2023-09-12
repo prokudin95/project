@@ -31,26 +31,18 @@ header h1{
     font-family: 'Roboto Slab', serif;
 }
 
-.ms{
-    position: absolute;
-    margin: 0.2%;
-    left: 20px;
-    width: 8%;
-    height: 10%;
+header img{
+    padding-top: 0.5%;
+    width: 7%;
+    height: 80%;
 }
 
-.nd{
-    position: absolute;
-    margin: 0.2%;
-    left: 180px;
-    width: 8%;
-    height: 10%;
+.hd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.dop{
-    width: 8%;
-    height: 7.3%;
-}
 /* Артикль */
 
 article{
@@ -102,23 +94,11 @@ footer p{
         font-size: 32px;
         padding-top: 2.5%;
     }
-    .ms{
-        width: 8%;
-        height: 9%;
-        margin: 1%;
-        left: 20px;
-    }
     
-    .nd{
-        width: 8%;
-        height: 9%;
-        margin: 1%;
-        left: 160px;
-    }
-
-    .dop{
-        width: 8%;
-        height: 8%;
+    header img{
+        padding-top: 0.75%;
+        width: 7%;
+        height: 80%;
     }
 
     .text p{
@@ -140,23 +120,10 @@ footer p{
         padding-top: 3.5%;
     }
 
-    .ms{
+    header img{
+        padding-top: 1.35%;
         width: 7%;
-        height: 9%;
-        margin: 2%;
-        left: 20px;
-    }
-    
-    .nd{
-        width: 7%;
-        height: 9%;
-        margin: 2%;
-        left: 130px;
-    }
-
-    .dop{
-        width: 8%;
-        height: 7.5%;
+        height: 80%;
     }
 
     .text img {
@@ -185,23 +152,11 @@ footer p{
         font-size: 23px;
         padding-top: 3.5%;
     }
-    .ms{
-        width: 8%;
-        height: 10%;
-        margin: 2%;
-        left: 20px;
-    }
-    
-    .nd{
-        width: 8%;
-        height: 10%;
-        margin: 2%;
-        left: 120px;
-    }
 
-    .dop{
-        width: 8%;
-        height: 8%;
+    header img{
+        padding-top: 1.5%;
+        width: 7%;
+        height: 80%;
     }
 
     .text p{
@@ -235,23 +190,10 @@ footer p{
         padding-top: 3.5%;
     }
 
-    .ms{
-        width: 8%;
-        height: 11%;
-        margin: 2%;
-        left: 20px;
-    }
-    
-    .nd{
-        width: 8%;
-        height: 11%;
-        margin: 2%;
-        left: 105px;
-    }
-
-    .dop{
-        width: 8%;
-        height: 9%;
+    header img{
+        padding-top: 2%;
+        width: 7%;
+        height: 80%;
     }
     
     .text p{
@@ -281,23 +223,11 @@ footer p{
         font-size: 15px;
         padding-top: 4.5%;
     }
-    .ms{
-        width: 8%;
-        height: 11%;
-        margin: 2%;
-        left: 20px;
-    }
-    
-    .nd{
-        width: 8%;
-        height: 11%;
-        margin: 2%;
-        left: 95px;
-    }
 
-    .dop{
-        width: 8%;
-        height: 8%;
+    header img{
+        padding-top: 2%;
+        width: 7%;
+        height: 80%;
     }
 
     .text p{
@@ -324,23 +254,11 @@ footer p{
         font-size: 12px;
         padding-top: 5%;
     }
-    .ms{
-        width: 8%;
-        height: 11%;
-        margin: 2.5%;
-        left: 20px;
-    }
-    
-    .nd{
-        width: 8%;
-        height: 11%;
-        margin: 2.5%;
-        left: 83px;
-    }
 
-    .dop{
-        width: 8%;
-        height: 8%;
+    header img{
+        padding-top: 2.35%;
+        width: 7%;
+        height: 80%;
     }
 
     .text p{
@@ -367,23 +285,11 @@ footer p{
         font-size: 11px;
         padding-top: 5%;
     }
-    .ms{
-        width: 8%;
-        height: 11%;
-        margin: 2.5%;
-        left: 5px;
-    }
     
-    .nd{
-        width: 8%;
-        height: 11%;
-        margin: 2.5%;
-        left: 55px;
-    }
-
-    .dop{
-        width: 8%;
-        height: 8%;
+    header img{
+        padding-top: 2.5%;
+        width: 7%;
+        height: 80%;
     }
 
     .text p{
@@ -410,23 +316,11 @@ footer p{
         font-size: 9px;
         padding-top: 6%;
     }
-    .ms{
-        width: 8%;
-        height: 11%;
-        margin: 2.5%;
-        left: 5px;
-    }
-    
-    .nd{
-        width: 8%;
-        height: 11%;
-        margin: 2.5%;
-        left: 48px;
-    }
 
-    .dop{
-        width: 8%;
-        height: 7%;
+    header img{
+        padding-top: 2.65%;
+        width: 7%;
+        height: 80%;
     }
 
 }
@@ -438,23 +332,13 @@ footer p{
         font-size: 8px;
         padding-top: 6%;
     }
-    .ms{
-        width: 8%;
-        height: 10%;
-        margin: 3.75%;
-    }
-    
-    .nd{
-        width: 8%;
-        height: 10%;
-        margin: 3.75%;
-        left: 335px;
+
+    header img{
+        padding-top: 3%;
+        width: 7%;
+        height: 80%;
     }
 
-    .dop{
-        width: 8%;
-        height: 6%;
-    }
     .text p{
         padding-top: 2%;
         font-size: 8px;
