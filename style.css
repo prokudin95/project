@@ -402,3 +402,69 @@ footer p{
         font-size: 9px;
     }  
 }
+@media screen and (max-width:480px) {
+    header{
+        height: 70px;
+    }
+    header h1{
+        font-size: 9px;
+        padding-top: 6%;
+    }
+    .ms{
+        width: 8%;
+        height: 11%;
+        margin: 2.5%;
+        left: 5px;
+    }
+    
+    .nd{
+        width: 8%;
+        height: 11%;
+        margin: 2.5%;
+        left: 48px;
+    }
+
+    .dop{
+        width: 8%;
+        height: 7%;
+    }
+
+}
+@media screen and (max-width:400px) {
+    header{
+        height: 60px;
+    }
+    header h1{
+        font-size: 8px;
+        padding-top: 6%;
+    }
+    .ms{
+        width: 8%;
+        height: 10%;
+        margin: 3.75%;
+    }
+    
+    .nd{
+        width: 8%;
+        height: 10%;
+        margin: 3.75%;
+        left: 40px;
+    }
+
+    .dop{
+        width: 8%;
+        height: 6%;
+    }
+    .text p{
+        padding-top: 2%;
+        font-size: 8px;
+    }
+
+    footer p{
+        font-size: 8px;
+    } 
+
+    footer{
+        height: 60px;
+    }
+}
