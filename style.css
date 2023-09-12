@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    transition: 0.3s;
+}
+
+body{
+    background-image: url(img/fon.jpg);
+    background-size: cover;
+    position: relative; 
+    background-attachment: fixed;
+}
+
+/* Шапка */
+
+header{
+    width: 100%;
+    height: 135px;
+    background-image: url(img/fon2.jpg);
+    text-align: center;
+    color: whitesmoke;
+    font-size: 21px;
+}
+
+header h1{
+    padding: 2%;
+    font-family: 'Roboto Slab', serif;
+}
+
+.ms{
+    position: absolute;
+    margin: 0.2%;
+    left: 20px;
+    width: 8%;
+    height: 10%;
+}
+
+.nd{
+    position: absolute;
+    margin: 0.2%;
+    left: 180px;
+    width: 8%;
+    height: 10%;
+}
+
+.dop{
+    width: 8%;
+    height: 7.3%;
+}
+/* Артикль */
+
+article{
+    margin-left: 15%;
+    width: 70%;
+    height: 100%;
+    background-image: url(img/fon2.jpg);
+    color:white;
+}
+
+.text{
+    text-align: center;
+    margin: 0 5%;
+    padding: 3% 0;
+}
+
+.text p{
+    padding-top: 2%;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+}
+
+.text img{
+    width: 90%;
+}
+
+/* Подвал */
+
+footer{
+    border-top: white 2px solid;
+    background-image: url(img/fon2.jpg);
+    margin-left: 15%;
+    width: 70%;
+    height: 150px;
+    margin-bottom: 5%;
+    border-radius: 0 0 30px 30px;
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    padding-top: 2.5%;
+    font-size: 20px;
+}
+
+/* Медиа-запросы */
+@media screen and (max-width:1660px){
+    header h1{
+        font-size: 32px;
+        padding-top: 2.5%;
+    }
+    .ms{
+        width: 8%;
+        height: 9%;
+        margin: 1%;
+        left: 20px;
+    }
+    
+    .nd{
+        width: 8%;
+        height: 9%;
+        margin: 1%;
+        left: 160px;
+    }
+
+    .dop{
+        width: 8%;
+        height: 8%;
+    }
+
+    .text p{
+        padding-top: 2%;
+        font-size: 20px;
+    }
+
+    footer{
+        height: 130px;
+    }
+
+    footer p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:1330px){
+    header h1{
+        font-size: 26px;
+        padding-top: 3.5%;
+    }
+
+    .ms{
+        width: 7%;
+        height: 9%;
+        margin: 2%;
+        left: 20px;
+    }
+    
+    .nd{
+        width: 7%;
+        height: 9%;
+        margin: 2%;
+        left: 130px;
+    }
+
+    .dop{
+        width: 8%;
+        height: 7.5%;
+    }
+
+    .text img {
+        width: 80%;
+    }
+
+    .text p{
+        padding-top: 2%;
+        font-size: 17px;
+    }
+
+    footer{
+        height: 110px;
+    }
+
+    footer p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:1150px){
+    header{
+        height: 120px;
+    }
+
+    header h1{
+        font-size: 23px;
+        padding-top: 3.5%;
+    }
+    .ms{
+        width: 8%;
+        height: 10%;
+        margin: 2%;
+        left: 20px;
+    }
+    
+    .nd{
+        width: 8%;
+        height: 10%;
+        margin: 2%;
+        left: 120px;
+    }
+
+    .dop{
+        width: 8%;
+        height: 8%;
+    }
+
+    .text p{
+        padding-top: 2%;
+        font-size: 14px;
+    }
+    .text img {
+        width: 70%;
+    }
+
+    footer{
+        height: 100px;
+    }
+
+    footer p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:1000px){
+    header{
+        height: 110px;
+    }
+
+    article{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    header h1{
+        font-size: 20px;
+        padding-top: 3.5%;
+    }
+
+    .ms{
+        width: 8%;
+        height: 11%;
+        margin: 2%;
+        left: 20px;
+    }
+    
+    .nd{
+        width: 8%;
+        height: 11%;
+        margin: 2%;
+        left: 105px;
+    }
+
+    .dop{
+        width: 8%;
+        height: 9%;
+    }
+    
+    .text p{
+        padding-top: 2%;
+        font-size: 12px;
+    }
+
+    .text img {
+        width: 60%;
+    }
+
+    footer{
+        height: 90px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    footer p{
+        font-size: 11px;
+    }    
+}
+@media screen and (max-width:860px){
+    header{
+        height: 90px;
+    }
+    header h1{
+        font-size: 15px;
+        padding-top: 4.5%;
+    }
+    .ms{
+        width: 8%;
+        height: 11%;
+        margin: 2%;
+        left: 20px;
+    }
+    
+    .nd{
+        width: 8%;
+        height: 11%;
+        margin: 2%;
+        left: 95px;
+    }
+
+    .dop{
+        width: 8%;
+        height: 8%;
+    }
+
+    .text p{
+        padding-top: 2%;
+        font-size: 12px;
+    }
+    .text img {
+        width: 60%;
+    }
+
+    footer{
+        height: 90px;
+    }
+
+    footer p{
+        font-size: 11px;
+    }    
+}
+@media screen and (max-width:700px) {
+    header{
+        height: 90px;
+    }
+    header h1{
+        font-size: 12px;
+        padding-top: 5%;
+    }
+    .ms{
+        width: 8%;
+        height: 11%;
+        margin: 2.5%;
+        left: 20px;
+    }
+    
+    .nd{
+        width: 8%;
+        height: 11%;
+        margin: 2.5%;
+        left: 83px;
+    }
+
+    .dop{
+        width: 8%;
+        height: 8%;
+    }
+
+    .text p{
+        padding-top: 2%;
+        font-size: 10px;
+    }
+    .text img {
+        width: 60%;
+    }
+
+    footer{
+        height: 80px;
+    }
+
+    footer p{
+        font-size: 9px;
+    }  
+}
+@media screen and (max-width:590px) {
+    header{
+        height: 80px;
+    }
+    header h1{
+        font-size: 11px;
+        padding-top: 5%;
+    }
+    .ms{
+        width: 8%;
+        height: 11%;
+        margin: 2.5%;
+        left: 5px;
+    }
+    
+    .nd{
+        width: 8%;
+        height: 11%;
+        margin: 2.5%;
+        left: 55px;
+    }
+
+    .dop{
+        width: 8%;
+        height: 8%;
+    }
+
+    .text p{
+        padding-top: 2%;
+        font-size: 10px;
+    }
+    .text img {
+        width: 60%;
+    }
+
+    footer{
+        height: 80px;
+    }
+
+    footer p{
+        font-size: 9px;
+    }  
+}
